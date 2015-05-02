@@ -1,0 +1,34 @@
+{
+  "name": "points",
+  "version": "1.0.0",
+  "description": "an experiment",
+  "main": "src/js/main.js",
+  "scripts": {
+    "test": "nodeunit test/main.js",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sole/points"
+  },
+  "keywords": [
+    "experiment"
+  ],
+  "author": "sole",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/sole/points/issues"
+  },
+  "homepage": "https://github.com/sole/points",
+  "dependencies": {
+    "browserify": "^5.13.1",
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.10.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.4.0",
+    "gulp-uglify": "^0.3.2",
+    "vinyl-transform": "^1.0.0",
+    "workerify": "^0.3.0",
+    "yargs": "^1.3.1"
+  }
+}
